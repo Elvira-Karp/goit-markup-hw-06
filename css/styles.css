@@ -478,7 +478,7 @@ margin-bottom: 72px;
   padding-top: 0%;
 }
 .footer-soc {
-  margin-right: 80px;
+  margin-right: auto;
 }
 
 .footer-soc-name {
@@ -488,6 +488,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 padding-bottom: 16px;
+margin-right: 80px;
 }
 
 .footer-soc-item {
@@ -553,8 +554,6 @@ padding-bottom: 16px;
   color: #FFFFFF;;
 }
 .sudscribe-btn{
-  width: 165px;
-  height: 40px;
   border: transparent;
   padding: 8px 24px;
   display: flex;
@@ -715,15 +714,16 @@ padding: 24px;
  margin-left: auto;
  border-radius: 50%;
  margin-bottom: 24px;
+ border: transparent;
 }
 
 .modal-close-icon {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .modal-close:hover,
 .modal-close:focus {
-  color: #404BBF;
+ background-color: #404BBF;
 }
 
 .is-hidden {
@@ -744,6 +744,7 @@ margin-bottom: 16px;
 
 .input-wrap {
   position: relative;
+  margin-top: 4px;
 }
 
 .modal-input {
@@ -837,12 +838,10 @@ transition: background-color 200ms linear;
   border-color: #404BBF;
 }
 .modal-dtn {
-width: 169px;
-height: 56px;
 border: transparent;
   padding-top: 16px;
   padding-bottom: 16px;
-  padding-right: 32px;
+  padding-right: 58px;
   padding-left: 58px;
   margin: 0 auto;
   font-family: inherit;
